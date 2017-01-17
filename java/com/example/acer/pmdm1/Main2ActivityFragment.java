@@ -18,7 +18,8 @@ public class Main2ActivityFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {View layFrag2=inflater.inflate(R.layout.fragment_main2, container, false);
+                             Bundle savedInstanceState) {
+        View layFrag2=inflater.inflate(R.layout.fragment_main2, container, false);
 
         TextView text2= (TextView) layFrag2.findViewById(R.id.text2);
 
@@ -37,8 +38,7 @@ public class Main2ActivityFragment extends Fragment {
 
 
 
-                setResult(RESULT_OK,databack);
-                finish();
+                
 
             }
 
