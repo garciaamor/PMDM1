@@ -12,16 +12,16 @@
     tools:showIn="@layout/activity_main2">
 
     <TextView
-        android:text="TextView"
+        android:text="Este es el segundo fragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:id="@+id/text2" />
+        android:id="@+id/indicadorFragment2" />
 
     <Button
-        android:text="Recibir"
+        android:text="Fragment 2, receptor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
