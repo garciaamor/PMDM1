@@ -24,7 +24,7 @@ public class MainActivityFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View layFragment=inflater.inflate(R.layout.fragment_main, container, false);
-        Button button=(Button) layFragment.findViewById(R.id.button);
+        Button button=(Button) layFragment.findViewById(R.id.button1);
         text=(TextView)layFragment.findViewById(R.id.text);
 
         button.setOnClickListener(new View.OnClickListener(){
