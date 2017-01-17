@@ -37,8 +37,9 @@ public class Main2ActivityFragment extends Fragment {
 
 
 
+                //setResult(RESULT_OK,databack);
+                //finish();
 
-                
 
             }
 
